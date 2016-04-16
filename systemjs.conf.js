@@ -18,7 +18,7 @@ var SystemConfig = (function() {
             "chai": "npm:chai/chai.js",
             "util": "npm:util/util.js",
             "inherits": "npm:inherits/inherits.js",
-            "angular": "npm:angular/angular.js"
+            "angular": "npm:angular/angular.min.js"
         },
         packages: {
             'app': {
