@@ -7,7 +7,7 @@
     "build": "tsc  -w  -pretty  -p .",
     "serve": "node_modules/.bin/http-server  --cors  -c-1  -o index.html",
     "start": "npm run build  &  npm run serve",
-    "test": "tsc --p test/tsconfig.json && node_modules/.bin/karma start",
+    "test": "tsc -p .  &&  node_modules/.bin/karma start",
     "postinstall": "typings  install"
   },
   "repository": {
